@@ -1,0 +1,39 @@
+
+.error_page_image{
+  background: linear-gradient(#d4092d, #152d3a);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90vh;
+}
+
+.error_page_container img{
+  width: 80%;
+  height: 100%!important;
+  position: relative;
+  left: 0;
+  transition: 4s ease;
+}
+.error_page_container img:hover{
+  width: 85%;
+  transition: 4s ease;
+}
+
+.error_content{
+  position: absolute;
+  color: #ffffff;
+  bottom: 20%;
+  left: 50%;
+  z-index: 99;
+}
+
+.error_content span{
+  text-decoration-line: underline;
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+.error_content span:hover{
+  color: #d4092d;
+  transition: 0.4s ease;
+}
+

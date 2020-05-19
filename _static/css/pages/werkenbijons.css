@@ -1,0 +1,108 @@
+.werken_bij_ons_container{
+  padding: 0 16%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.werken_bij_ons_container h1{
+  font-size: 3em;
+}
+
+.header_werken_bij_ons{
+  padding: 0!important;
+}
+
+#jobs-page-top-content p{
+  margin-top: 40px;
+  color: #888888;
+}
+
+.jobs_image{
+  width: 100%;
+}
+
+.jobs_title{
+  color: #152d3a;
+  font-size: 2.6em;
+}
+
+.jobs_content_text, .jobs_content_pictures{
+  padding: 0px!important;
+}
+.jobs_content_text p{
+  color: #888888;
+  margin-top: 40px;
+}
+.jobs_content_text{
+  padding-right: 50px!important;
+  margin-top: 100px;
+}
+
+.jobs{
+  margin-top: 80px;
+}
+
+.solliciteer_nu a{
+  color: #d4092d;;
+}
+
+.jobs_overtuigd{
+  margin-top: 200px;
+}
+
+.jobs_overtuigd_text p{
+  color: #888888;
+}
+.jobs_overtuigd_text a{
+  color: #d4092d;
+}
+
+#jobs_lijst ul li a{
+  color: #152d3a;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: .9em;
+  font-family: "proxima-nova";
+  transition: color .3s;
+
+}
+#jobs_lijst h3{
+  margin-bottom: 30px;
+  margin-top: 60px;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+#jobs_lijst ul li{
+margin-bottom: 30px;
+}
+
+#jobs_lijst ul li a i{
+  transition: transform 1s;
+  margin-left: 5px;
+  color: #d4092d;
+}
+#jobs_lijst ul li a:hover i {
+  transform: translate(5px,0);
+}
+#jobs_lijst ul li a:hover{
+    color: #d4092d;
+}
+
+.overtuigd_title{
+  margin-right: 4.16667%;
+}
+
+.jobs_padding{
+  padding: 0!important;
+}
+
+.jobs_end_picture{
+  margin-top: 20px;
+}
+
+.jobs_end_picture img{
+  width: 100%;
+}
+

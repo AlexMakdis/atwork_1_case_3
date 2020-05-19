@@ -1,0 +1,101 @@
+.slideshow{
+  margin-bottom: 100px;
+}
+
+.first_blok_home_container{
+  margin-top: 550px;
+  padding-left: 8.33333%;
+  padding-right: 8.33333%;
+  margin-bottom: 180px;
+}
+.first_blok_home_container h1, .fourth_blok_home_container h1{
+  font-size: 2.6em;
+}
+.second_blok_home_container, .reasons, .fourth_blok_home_container{
+  margin-bottom: 180px;
+}
+
+.no_padding{
+  padding: 0!important;
+}
+.project_content_list h1{
+  font-size: 2.6em;
+}
+
+.bekijk_alle{
+  margin-bottom: 40px;
+}
+
+.no_padding p{
+  color: #888888;
+}
+
+.bekijk_projecten{
+  margin: auto 0;
+}
+
+.first_project_home{
+  margin-top: 222px;
+  padding-right: -0px!important;
+}
+
+.last_project_home{
+  margin: 0 auto;
+}
+
+/* Derde blok */
+.background_image_home{
+  background-image: url(../../images_online/home/establis-reasons-bg.jpg);
+  padding-top: 140px;
+  padding-bottom: 80px;
+  /* opacity: .4; */
+}
+.reasons{  
+  background-color: #152d3a;
+  background-size: cover;
+  background-position: center;
+
+    
+    position: relative;
+    left: -56px;
+}
+
+.driedrie{
+  font-size: 16em;
+  opacity: 1!important;
+}
+
+.white{
+  color: #ffffff;
+}
+
+.middle_left_home_third_blok{
+  margin-left: auto;
+  
+}
+.middle_right_home_third_blok{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+/* 4de blok */
+.latest_news_pic{
+  width: 100%;
+}
+.fourth_blok_home_container p, .fourth_blok_home_container a{
+  color: #888888;
+}
+
+.fourth_blok_home_container{
+  padding-left: 8.33333%;
+  padding-right: 8.33333%;
+}
+
+/* 5de blok */
+.fifth_blok_home_container h1{
+  font-size: 2.6em;
+}
+.fifth_blok_home_container p{
+  color: #888888;
+}

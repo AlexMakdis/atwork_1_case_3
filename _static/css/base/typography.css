@@ -1,0 +1,26 @@
+body h1, h2, h3 {
+  font-family: "proxima-nova";
+  letter-spacing: .6px;
+  font-weight: bolder;
+}
+body p {
+  font-family: "proxima-nova"; 
+}
+body{
+  font-family: "proxima-nova"; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #152d3a;
+  font-weight: 600;
+  margin: 0;
+}
+h2{
+font-size: 2.6em;
+}
+
+@media (max-width: 768px){
+  h2 {
+      font-size: 2.2em;
+  }}

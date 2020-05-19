@@ -1,0 +1,90 @@
+header{
+  margin-bottom: 70px;
+}
+
+.header_team_container{
+  margin-bottom: 60px;
+}
+
+.header_team_container h1{
+  font-size: 3em;
+}
+
+.team_line {
+  margin-top: 20px;
+  padding-left: 56px;
+  animation: headerLineSlideIn 1.4s ease forwards;
+  background: #d4092d;
+  width: 80px;
+  height: 1px;
+  transform: translate(-100%,0);
+}
+
+@keyframes headerLineSlideIn{
+  0% {
+    transform: translate(-100%,0);
+}
+100% {
+    transform: translate(0,0);
+}
+}
+
+/* Teamleden */
+.project{
+  width: 100%;
+  padding-top: 0px !important;
+  padding-right: 8px!important;
+  padding-bottom: 8px !important;
+  padding-left: 0px !important;
+}
+
+.team_container{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.front_image{
+  width: 100%;
+  position: relative;
+  transition: opacity .5s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  position: relative;
+  
+}
+.picture_hover{
+  transition: 0.4s ease;
+}
+
+.picture_hover:hover{
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.hover_image{
+  width:100%;
+  padding-top: 0px !important;
+  padding-right: 16px!important;
+  padding-bottom: 8px !important;
+  padding-left: 0px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.project__title{
+  transition: opacity .3s;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: block;
+  color: #fff;
+  position: absolute;
+  left: 15px;
+  bottom: 30px;
+  
+}
+

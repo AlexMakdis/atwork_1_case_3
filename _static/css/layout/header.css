@@ -1,0 +1,9 @@
+.logo{
+  width: 35%;
+  position: relative;
+  z-index: 99;
+}
+
+.logo_margin_left{
+  margin-left: 20px;
+}

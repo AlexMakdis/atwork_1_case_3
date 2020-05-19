@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-white);
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #152d3a;
+  transition: 0.4s ease;
+}
+
+:root {
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-lato: 'Lato', sans-serif;
+  --font-family-body: var(--font-family-roboto);
+  --font-family-headings: var(--font-family-lato);
+}
+
+p{
+  font-family: var(--font-family-roboto);
+}
+
+li, ul {
+  list-style-type: none;
+  font-family: var(--font-family-roboto);
+}
+
+main{
+  padding: 0 56px;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #d4092d;
+  transition: 0.4s ease;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+.lees_meer{
+  cursor: pointer;
+}
+.hover_red{
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+
+.hover_red:hover{
+  color: #d4092d;
+  transition: 0.4s ease;
+}

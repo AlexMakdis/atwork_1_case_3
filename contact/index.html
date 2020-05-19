@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact | Establis</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://kit.fontawesome.com/3648c47f4c.js" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="../_static/css/main.css">
+    <link rel="shortcut icon" href="https://establis.eu/sites/default/files/favicon.ico"
+        type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="https://use.typekit.net/aqh6sho.css">
+
+</head>
+
+<body>
+
+    <header class="wrapper wrapper--header">
+        <div class="g-fb-container">
+            <div class="g-fb-row">
+                <div class="g-fb-col-6 logo_margin_left">
+                    <a href='../index.html' title=""><img class="logo" src="../_static/images_online/logo/logo.jpg"
+                            alt="" srcset=""></a>
+                </div>
+
+                <div>
+                    <nav class="nav">
+                        <ul class="nav__list nav-links">
+                            <li class="nav__item nav__item--active"><a href="../index.html">home</a>
+                            </li>
+                            <li class="nav__item"><a href="../over-ons/index.html">over ons</a></li>
+                            <li class="nav__item"><a href="../team/index.html">team</a></li>
+                            <li class="nav__item"><a href="../projecten/index.html">projecten</a>
+                            </li>
+                            <li class="nav__item"><a href="../werken-bij-ons/index.html">werken bij
+                                    ons</a></li>
+                            <li class="nav__item"><a href="../nieuws/index.html">nieuws</a></li>
+                            <li class="nav__item"><a href="../duurzaamheid/index.html">duurzaamheid</a>
+                            </li>
+                            <li class="nav__item"><a href="../contact/index.html">contact</a></li>
+                            <li class="">Englisch</li>
+                            <li class=""> Dutch</li>
+                        </ul>
+                        <div id="page-side-btn" class="page-side-btn--status-default">
+                            <div id="page-side-btn-content" class="burger">
+                                <div class="page-side-btn-content-line line1"></div>
+                                <div class="page-side-btn-content-line middle line2"></div>
+                                <div class="page-side-btn-content-line line3"></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script src="../_static/js/button.js"></script>
+    </header>
+
+    <main class="wrapper wrapper--main tmpl-home">
+        <div class="wrapper wrapper--header">
+            <div class="g-fb-container">
+                <div class="g-fb-row">
+                    <div class="g-fb-col-12 g-fb-col-md-6 header_team_container contact_header_left">
+                        <h1>contact</h1>
+                        <div class="team_line"></div>
+                    </div>
+                    <div class="g-fb-col-12 g-fb-col-md-3 contact-page-content_left">
+                        <h2 class="contact-page-content-locations-col__title">Establis Roeselare nv</h2>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>Establis Roeselare nv</span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>Beversesteenweg 612</span>
+                            <span>8800 - Roeselare</span>
+                            <span><a href="http://maps.google.com/?daddr=50.976633,3.167726" target="_blank">open in
+                                    google maps</a></span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>+32 (0)51 43 12 00</span>
+                            <span><a href="mailto:roeselare@establis.eu">roeselare@establis.eu</a></span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>BTW BE 0430 475 409</span>
+                            <span>RPR Kortrijk</span>
+                        </div>
+                    </div>
+                    <div class="g-fb-col-12 g-fb-col-md-3 contact-page-content_left2">
+                        <h2 class="contact-page-content-locations-col__title">Establis Antwerpen bvba</h2>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>Establis Antwerpen bvba</span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>Jan van Gentstraat 7 bus 201</span>
+                            <span>2000 - Antwerpen</span>
+                            <span><a href="http://maps.google.com/?daddr=51.206099,4.387136" target="_blank">open in
+                                    google maps</a></span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>+32 (0)3 640 38 10</span>
+                            <span><a href="mailto:antwerpen@establis.eu">antwerpen@establis.eu</a></span>
+                        </div>
+                        <div class="contact-page-content-locations-col__group">
+                            <span>BTW BE 0895 940 203</span>
+                            <span>RPR Antwerpen</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
+    <div class="g-fb-col-12 map_width" id="map"></div>
+    <script src="../_static/js/map.js"></script>
+    </div>
+</body>
+<footer id="footer-block" class="wrapper wrapper--header footer_contact_margin_top">
+    <div class="g-fb-container footer_container">
+        <div class="g-fb-row">
+            <div id="footer-block-newsletter-title" class="g-fb-col-12 g-fb-col-md-4">
+                <span>inschrijven</span>
+
+            </div>
+            <div id="footer-block-newsletter-input" class="g-fb-col-12 g-fb-col-md-8">
+                <form action="https://doscreations.createsend.com/t/r/s/utydbl/" method="post" id="subForm">
+                    <input id="fieldEmail" name="cm-utydbl-utydbl" type="email" required
+                        placeholder="Vul uw e-mailadres in en ontvang onze newsletter" />
+                    <button type="submit">verzend <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="g-fb-row footer-row">
+            <div class="g-fb-col-12 g-fb-col-lg-4 footer-block-col">
+                <span class="footer__title">Establis</span>
+                <p>Establis garandeert u creatieve berekeningen en optimale oplossingen voor uw bouwkundige
+                    structuren.</p>
+
+                <p>Ons team in Antwerpen en Roeselare bestaat uit hooggekwalificeerde medewerkers met diverse
+                    specialiteiten, ondermeer op het vlak van beton, staal, prefab, funderingstechnieken en seïsme,
+                    dit alles in een BIM-omgeving uitgewerkt. Wij staan klaar om uw unieke bouwproject van a tot z
+                    te begeleiden.</p>
+
+                <p>Een beroep doen op Establis betekent voor u het binnenhalen van stabiliteit.</p>
+
+                <p><a href="https://www.establis.eu/nl/privacyverklaring"
+                        title="privacyverklaring">privacyverklaring</a></p>
+
+                <a href="http://www.facebook.com/pages/Establis-Group/216863881721152" target="_blank"
+                    class="footer-social-link"><i class="fab fa-facebook-square"></i></a>
+
+                <a href="https://www.linkedin.com/company/establis-group" target="_blank" class="footer-social-link"><i
+                        class="fab fa-linkedin"></i></a>
+
+            </div>
+            <div class="g-fb-col-12 g-fb-col-lg-2 footer-block-col">
+                <span class="footer__title">Sitemap</span>
+                <nav role="navigation" aria-labelledby="block-menunl-menu" id="block-menunl">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="/nl" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/over-ons" data-drupal-link-system-path="node/22">Over ons</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/team" data-drupal-link-system-path="node/13">Team</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/projecten" data-drupal-link-system-path="node/12">Projecten</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/jobs" data-drupal-link-system-path="node/24">Werken bij ons</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/nieuws" data-drupal-link-system-path="node/4">Nieuws</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/onze-visie-op-duurzaamheid"
+                                data-drupal-link-system-path="node/2">Duurzaamheid</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/nl/contact" data-drupal-link-system-path="node/17">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="g-fb-col-12 g-fb-col-lg-6">
+                <span class=" footer__title footer-block-col">Contact</span>
+                <div class="g-fb-row">
+                    <div class="g-fb-col-12 g-fb-col-lg-6 footer-block-contact-col" id="footer-block-contact-cols">
+
+                        <span class="footer-block-contact-col__title">Establis Roeselare nv</span>
+                        <p>
+                            Beversesteenweg 612<br />
+                            8800 - Roeselare
+                        </p>
+                        <p>
+                            +32 (0)51 43 12 00<br />
+                            <a href="mailto:roeselare@establis.eu">roeselare@establis.eu</a>
+                        </p>
+                        <p>
+                            BTW BE 0430 475 409<br />
+                            RPR Kortrijk
+                        </p>
+                    </div>
+                    <div class="g-fb-col-12 g-fb-col-lg-6 g-fb- footer-block-contact-col">
+                        <span class="footer-block-contact-col__title">Establis Antwerpen bvba</span>
+                        <p>
+                            Jan van Gentstraat 7 bus 201<br />
+                            2000 - Antwerpen
+                        </p>
+                        <p>
+                            +32 (0)3 640 38 10<br />
+                            <a href="mailto:antwerpen@establis.eu">antwerpen@establis.eu</a>
+                        </p>
+                        <p>
+                            BTW BE 0895 940 203<br />
+                            RPR Antwerpen
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer-block-copyright" class="g-fb-col-12 footer-row">
+        <span>&copy; Establis - 2020</span>
+    </div>
+</footer>
+
+</html>

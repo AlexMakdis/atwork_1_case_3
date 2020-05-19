@@ -1,0 +1,259 @@
+#page-main-sidebar {
+  margin-left: 8.33333%;
+  padding-right: 56px;
+  line-height: 1.5;
+
+}
+
+aside {
+  display: block;
+}
+
+#taxonomy-sidebar-menu {
+  background: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#taxonomy-sidebar-menu-title {
+  display: block;
+  text-transform: uppercase;
+  color: #152d3a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#taxonomy-sidebar-menu-title i {
+  float: right;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 992px) {
+  #taxonomy-sidebar-menu-title i {
+    display: none;
+  }
+}
+
+#taxonomy-sidebar-menu-title i {
+  float: right;
+}
+
+#taxonomy-sidebar-menu-nav {
+  border-top: 1px solid #d5d5d5;
+  padding-top: 15px;
+  margin-top: 22px;
+  display: none;
+}
+#taxonomy-sidebar-menu-nav a:hover{
+  color: #d4092d;
+  transition: 0.4s ease;
+}
+
+.active{
+  font-weight: 600;
+  color: #d4092d!important;
+}
+
+.taxonomy-sidebar-menu-nav-item:first-child {
+  margin-top: 0;
+}
+
+.taxonomy-sidebar-menu-nav-item {
+  transition: color .3s;
+  display: block;
+  color: #888;
+  margin-top: 14px;
+  letter-spacing: .5px;
+}
+
+@media (min-width: 1200px) {
+  #page-main-sidebar {
+    width: 20.83333%;
+    float: left;
+  }
+
+  .projecten_container_content {
+    margin-left: 26.6667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .taxonomy-sidebar-menu-nav-item {
+    margin-top: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  #page-main-sidebar {
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #page-main-sidebar {
+    margin-left: 0;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .taxonomy-sidebar-menu-nav-item {
+    margin-top: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  #taxonomy-sidebar-menu-nav {
+    display: block;
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #taxonomy-sidebar-menu-title {
+    cursor: default;
+  }
+}
+
+@media (min-width: 992px) {
+  #taxonomy-sidebar-menu {
+    background: 0 0;
+    padding: 0;
+  }
+}
+
+/* content */
+
+.kaas{
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.project_picture img {
+  width: 100%;
+  transition: transform 2s;
+}
+
+
+.project_2 {
+  width: 100%;
+  height: fit-content;
+}
+
+
+.project_content_list {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.project_text{
+  position: absolute;
+  left: 0px;
+  padding-left: 25px;
+  bottom: 5px;
+  padding-bottom: 25px;
+  width: 100%;
+  /* background: linear-gradient(transparent,rgba(0,0,0,.5) 100%); */
+  transform: translate(0,50px);
+  transition: 0.4s ease;
+ z-index: 1;
+}
+.project_text h1, .project_text span{
+  color: #ffffff;
+}
+.project_text h1{
+  font-size: 1.3em;
+}
+
+
+.project__location{
+  font-size: 1rem!important;
+}
+
+.project_header{
+  padding: 10px 0!important;
+}
+
+.lees_meer{
+  transition: color .3s;
+  text-transform: uppercase;
+  margin-top: 10px;
+  letter-spacing: 1.8px;
+}
+.lees_meer:hover{
+color: #d4092d;
+}
+.lees_meer i {
+  transition: transform 1s;
+  margin-left: 10px;
+  color: #d4092d;
+}
+.lees_meer:hover i {
+  transform: translate(5px,0);
+}
+
+.overview-item__hover {
+  transition: opacity .4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21,45,58,.8);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.kaas:hover .overview-item__hover{
+  opacity: 1;
+  padding-bottom: 10px;
+  transition: 0.4s ease;
+}
+.kaas:hover{
+  cursor: pointer;
+}
+
+.kaas:hover .project_text{
+  transform: translate(0, 0px);
+  transition: 0.4s ease;
+}
+
+.kaas:hover .project_picture img{
+  transform: scale(1.1,1.1);
+  transition: transform 2s;
+}
+
+.between_titles_project_detail{
+  font-family: proxima-nova,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+.detail_project_zoom{
+  transition: transform 2s;
+}
+
+.detail_project_zoom:hover{
+  transform: scale(1.1,1.1);
+  transition: transform 2s;
+}
+
+.project_detail_margin{
+  margin: 0 auto;
+}
+
+.last_detail_project{
+  margin-top: 100px;
+}
